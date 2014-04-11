@@ -11,6 +11,10 @@ def fib(num):
         cur = init+new
         init = new
         new = cur
+    if num == 1:
+        cur = 1
+    if num == 0:
+        cur = 0
     print cur
 
 for line in input:
